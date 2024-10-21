@@ -1,0 +1,10 @@
+; LOAD
+LDA #$05
+LDX #$0A
+LDY #$01
+; STORE
+STA $00
+STX $03
+STY $09
+;
+LDA $09
